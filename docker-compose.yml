@@ -1,6 +1,11 @@
 services:
   nginx:
-    image: nginx:latest
+    build:
+      context: .
     ports:
       - "80:80"
+    volumes:
+      - type: bind
+        source: ./etc/nginx/sites-enabled
+        target: /etc/nginx/sites-enabled
 
