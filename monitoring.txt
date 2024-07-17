@@ -1,0 +1,17 @@
+URL:                                        %{url}\n
+Redirect URL(When you don't use -L option): %{redirect_url}\n
+The URL that was fetched last:              %{url_effective}\n
+Status Code:                                %{http_code}\n
+HTTP version:                               %{http_version}\n
+Local IP Address(Maybe PrivateIP):          %{local_ip}\n
+Local Port Number(Ephemeral Port):          %{local_port}\n
+Number of new connections:                  %{num_connects}\n
+Number of TLS certificates from server:     %{num_certs}\n
+Redirection count:                          %{num_redirects}\n
+Remote Server IP Address:                   %{remote_ip}\n
+Remote Server Port Number:                  %{remote_port}\n
+DNS Lookup Time:                            %{time_namelookup}\n
+Time Until TCP Connection Complete:         %{time_connect}\n
+Time Until Application Connection Complete: %{time_appconnect}\n
+Time To First Byte(TTFB):                   %{time_starttransfer}\n
+Total Time:                                 %{time_total}\n
