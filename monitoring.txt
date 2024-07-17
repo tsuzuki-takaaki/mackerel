@@ -2,6 +2,7 @@ URL:                                        %{url}\n
 Redirect URL(When you don't use -L option): %{redirect_url}\n
 The URL that was fetched last:              %{url_effective}\n
 Status Code:                                %{http_code}\n
+HTTP Headers:                               %{header_json}\n
 HTTP version:                               %{http_version}\n
 Local IP Address(Maybe PrivateIP):          %{local_ip}\n
 Local Port Number(Ephemeral Port):          %{local_port}\n
